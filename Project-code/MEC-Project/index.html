@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css.css" />
+  </head>
+  <body>
+
+    <!-- Navigation Bar -->
+    <header id="nav">
+      <h4 id="Practice"><a href="#slider">Home</a></h4>
+      <h4><a href="#mainDiv">Explore</a></h4>
+      <h4><a href="#contact">Contact</a></h4>
+      <h4><a href="#footer">About Us</a></h4>
+      <div>
+        <button>Login</button>
+        <button>Sign Up</button>
+      </div>
+    </header>
+
+    <!-- Slider Section -->
+    <section id="slider">
+      <swiper-container
+        class="mySwiper"
+        pagination="true"
+        pagination-clickable="true"
+        navigation="true"
+        space-between="30"
+        centered-slides="true"
+        autoplay-delay="2500"
+        autoplay-disable-on-interaction="false"
+      >
+        <swiper-slide>
+          <img
+            src="./images/slider_images/Gray Minimalist New Collection Banner.png"
+            alt="Collection Banner"
+          />
+        </swiper-slide>
+        <swiper-slide>
+          <img
+            src="./images/slider_images/Black and Beige Minimalist Black Friday Sale Banner.png"
+            alt="Black Friday Sale Banner"
+          />
+        </swiper-slide>
+        <swiper-slide>
+          <img
+            src="./images/slider_images/Black and White Vintage Illustration Men's Fashion Banner.png"
+            alt="Vintage Fashion Banner"
+          />
+        </swiper-slide>
+        <swiper-slide>
+          <img
+            src="./images/slider_images/Black Red Minimalist Fashion Product Introduction Landscape Banner.png"
+            alt="Product Introduction Banner"
+          />
+        </swiper-slide>
+      </swiper-container>
+    </section>
+
+    <!-- Main Content -->
+    <main id="mainDiv"></main>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>
+            We're here to help. Send a quick message or email us at
+            <a href="mailto:support@help.in">support@help.in</a>. We'll get back
+            to you shortly.
+          </p>
+          <ul class="contact-details">
+            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+            <li>
+              <i class="fa-solid fa-map-marker-alt"></i> Mumbai, Maharashtra,
+              India
+            </li>
+          </ul>
+        </div>
+
+        <form
+          class="contact-form"
+          action="#"
+          method="post"
+          aria-label="Contact form"
+        >
+          <input type="text" name="name" placeholder="Full name" required />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email address"
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Write your message here"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div id="footer_main">
+        <div id="f1">
+          <span class="footer_head_link1"
+            >The Ultimate Guide To Ace SDE Interviews.</span
+          >
+        </div>
+        <div id="f2">
+          <span class="footer_head_link">Quick Links</span>
+          <span>Home</span>
+          <span>Courses</span>
+          <span>DevChallenge</span>
+          <span>Labs</span>
+          <span>Contact</span>
+        </div>
+        <div id="f3">
+          <span class="footer_head_link">Legal</span>
+          <span>Privacy Policy</span>
+          <span>Terms of Use</span>
+          <span>Refund & Cancellation Policy</span>
+        </div>
+        <div id="f4">
+          <span class="footer_head_link">Get In Touch</span>
+          <span>support@help.in</span>
+        </div>
+      </div>
+
+      <div id="footer_base">
+        <i class="fa-brands fa-google"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+      </div>
+
+      <p id="foot_lp">
+        Copyright © 2025 Sorting ________ Technologies Pvt Ltd. All Rights
+        Reserved.
+      </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
+</html>
