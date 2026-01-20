@@ -1,6 +1,6 @@
-/* ===========================
+/* 
    1. Reset & Global Styles
-=========================== */
+*/
 * {
   margin: 0;
   padding: 0;
@@ -12,9 +12,9 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* ===========================
+/* 
    2. Layout: Main Section
-=========================== */
+ */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -33,9 +33,9 @@ main {
   gap: 30px;
 }
 
-/* ===========================
+/* 
    3. Component: Navigation Bar
-=========================== */
+ */
 #nav {
   position: fixed;
   top: 0;
@@ -91,9 +91,9 @@ main {
   cursor: pointer;
 }
 
-/* ===========================
+/* 
    4. Component: Slider
-=========================== */
+*/
 #slider {
   position: relative;
   height: 100vh;
@@ -128,9 +128,9 @@ swiper-slide img {
   object-fit: fill;
 }
 
-/* ===========================
+/* 
    5. Component: Card
-=========================== */
+*/
 
 #mainDiv{
   
@@ -192,10 +192,10 @@ swiper-slide img {
   background-color: rgb(0, 123, 255);
   border: none;
 }
-/* ===========================
+/* 
    6.5 Component: Contact
    (Inserted between main/products and footer)
-=========================== */
+*/
 #contact {
  
   background: #000;
@@ -274,9 +274,9 @@ swiper-slide img {
   color: #000;
   
 }
-/* ===========================
+/* 
    7. Component: Footer
-=========================== */
+*/
 #footer {
   height: 500px;
   display: flex;
@@ -330,9 +330,9 @@ swiper-slide img {
   font-size: small;
 }
 
-/* ===========================
+/* 
    8. Footer Base
-=========================== */
+*/
 #footer_base {
   margin-bottom: 60px;
 
